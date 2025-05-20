@@ -56,7 +56,6 @@ pipline.py文件实现了整个多图层动效生成的pipline，其中图层路
     parser.add_argument('--llm', type=str, default="qwen/Qwen2.5-3B-Instruct", help='')
 ```
 
-其中本地图像文件转化成URL我使用的是我自己的Github仓库实现的，也就是mars文件夹中的文件上传部分我做了修改，mars-Original是原来的mars文件夹，在公司内部使用可以把mars-Original名称改回mars
 
 直接使用`python pipline.py`可以调用整个pipline，模型使用的是`save_ckp/DiT_state/final_model`目录下的检查点，这是一个输入时包含初始位置的模型，在第168行进行调用：
 
