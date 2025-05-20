@@ -1,0 +1,8 @@
+*.bin
+*.pt
+*.pth
+newquxiantu/
+quxiantu/
+save_ckp/
+gen_json/
+__pycache__/
